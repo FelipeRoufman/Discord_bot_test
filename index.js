@@ -30,16 +30,12 @@ const falas = [
 const IGNORE_PREFIX = "@";
 
 client.on('messageCreate', message => {
-    // Evita que o bot responda a si mesmo
     if (message.author.bot) return;
 
-    // Conteúdo da mensagem
     const messageContent = message.content.toLowerCase();
 
-    // Palavra a ser verificada na mensagem
     const palavraProcurada = 'moto';
 
-    // Verifica se a mensagem contém a palavra
     if (messageContent.includes(palavraProcurada)) {
 
         const r = Math.floor(Math.random() * falas.length);
