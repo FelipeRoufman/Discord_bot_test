@@ -1,6 +1,6 @@
 # Discord Bot: Moto Bot
 
-Este é um bot simples para o Discord, construído utilizando a biblioteca `discord.js`. Ele responde automaticamente a mensagens que contêm a palavra-chave "moto" com uma frase aleatória predefinida.
+Este é um bot simples que eu fiz para aprender a criar bots, os comandos dele vem em base de um amigo e foi feito para um grupo de amigos, fique aberto caso voce queira usar e modificar para o seu grupo
 
 ## Funcionalidades
 
